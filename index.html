@@ -13,11 +13,22 @@
 
   <header>
     <h1>Image Crop</h1>
-    <p>com HTML5 Canvas e JS</p>
+    <p>with HTML5 Canvas and JS</p>
   </header>
 
   <main>
-    <!-- conteúdo da aula aqui -->
+
+    <button id="select-image">
+      <input type="file" id="photo-file">
+      Select image
+    </button>
+
+    <img id="photo-preview" draggable="false">
+
+    <button id="crop-image">Cut Image</button>
+    <button id="download">Export Image</button>
+
+    <div id="selection-tool"></div>
   </main>
 
   <footer></footer>

@@ -67,7 +67,7 @@ footer {
 }
 
 footer::after {
-  content: "Feito com ♥️ por b3ll3o";
+  content: "Made with ♥️ for b3ll3o";
   opacity: 0.6;
   font-size: 0.8rem;
 }
@@ -107,4 +107,26 @@ button + button {
 img {
   width: 100%;
   height: auto;
+}
+
+#photo-file{
+  display: none;
+}
+
+#photo-preview {
+  margin: .75rem 0;
+}
+
+#selection-tool {
+  position: fixed;
+  border: 2px dashed var(--green);
+  display: none;
+}
+
+#crop-image{
+  display: none;
+}
+
+#download{
+  display: none;
 }
